@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacer-s);
+  align-items: center;
+}
+
+.title-page{
+  color: var(--primary);
+  transition: all 0.4s;
+}
+.list-options{
+  list-style: none;
+  display: flex;
+  gap: var(--spacer-l);
+}
+
+#icons-header{
+  list-style: none;
+  display: flex;
+  gap: var(--spacer-l);
+}
+
+#icons-header p{
+  margin: 0;
+}
+
+.option{
+  transition: all 0.4s;
+}
+
+.option:hover{
+  cursor: pointer;
+  color: var(--primary);
+}
+
+.title-page:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+

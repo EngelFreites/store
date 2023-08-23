@@ -11,8 +11,8 @@ html {
   
   /* Familias tipograficas */
 
-  --font-1:'Montserrat', sans-serif;
-  --font-2: 'Girassol', cursive;
+  --font-2:'Montserrat', sans-serif;
+  --font-1: 'Girassol', cursive;
 
   /* Variables tipográficas */
   --text-caption: 14px;

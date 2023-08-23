@@ -1,0 +1,9 @@
+.App{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  background-color: #f0f0f0; /* Color de fondo */
+  background-image: radial-gradient(#FFDB79 0.1px, transparent 0.1px); /* Patrón de puntos */
+  background-size: 5px 5px; /* Tamaño de los puntos */
+}

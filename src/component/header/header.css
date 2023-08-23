@@ -3,6 +3,7 @@ header {
   justify-content: space-between;
   padding: var(--spacer-s);
   align-items: center;
+  background-color: var(--secundary-light);
 }
 
 .title-page{

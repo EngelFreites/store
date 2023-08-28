@@ -1,0 +1,101 @@
+main{
+  display: grid;
+  grid-template-columns: var(--grid-main);
+  gap: 0 var(--grid-gap);
+  padding: 30px;
+  height: 100%;
+  grid-auto-flow: dense;
+}
+
+main h2{
+  font-family: var(--font-2);
+  font-size: var(--text-title);
+  padding: var(--container-padding) 0;
+}
+
+main p{
+  margin: 0;
+}
+.content-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url("https://pvh.com/-/media/Images/pvh/brand-pages/tommy-hilfiger/tommy-hilfiger-hero.jpg?h=1600&iar=0&w=3200&hash=B5C529E54180155D18B5DE6FCA1B489D");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  
+}
+.recomendation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 var(--grid-gap);
+}
+
+.element{
+  background-color: aliceblue;
+  width: 25%;
+  padding: var(--spacer-s);
+  box-shadow: 8px 9px 5px 0px rgba(224,217,224,0.89);
+}
+
+
+.content-img p{
+  font-family: var(--font-1);
+  color: var(--primary-4);
+  font-size: var(--text-headline);   
+}
+
+.element-basico{
+  display: flex;
+  justify-content: end;
+  padding: var(--spacer-m);
+  background-image: url('//www.poloclub.com/cdn/shop/files/CAT-3-OUTLET-PACKS-02.jpg?v=1687418134&width=1500');
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+
+.element-basico-int{
+  display: flex;
+  padding: var(--spacer-m);
+  justify-content: end;
+  background-image: url('https://www.rlmedia.io/is/image/PoloGSI/s7-1490885_alternate4?$rl_df_pdp_5_7$');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-row-start: span 2;
+  flex-direction: column;
+}
+
+.element-basico-finish{
+  display: flex;
+  justify-content: end;
+  padding: var(--spacer-m);
+  flex-direction: column;
+  background-image: url('//www.poloclub.com/cdn/shop/files/CAT-2-OUTLET-POLOS-02.jpg?v=1687418125&width=1500');
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: var(--spacer-s);
+}
+
+h3{
+  color: var(--secundary-light);
+}
+
+button {
+  margin-top: 10px;
+  color: var(--secundary-light);
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--third);
+  border-radius: 6px;
+  font-family:var(--font-2) ;
+  width: 150px;
+}

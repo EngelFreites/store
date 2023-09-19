@@ -30,15 +30,15 @@ export default function Home (){
         </div>
       </section>
       <h2 className='full-width'>Basico Versatiles</h2>
-      <div className='element-basico-int left'>
+      <div className='element-basico-int'>
         <h3  className='font-1 text-title'>Polo Bear</h3>
         <button>Comprar out pack</button>
       </div>
-      <div className='element-basico right'>
-        <h3 className='font-1 text-title'></h3>
+      <div className='element-basico'>
+        <h3 className='font-1 text-title'>Camisas</h3>
         <button>Comprar out pack</button>
       </div>
-      <div className='element-basico-finish right'>
+      <div className='element-basico-finish'>
         <h3 className='font-1 text-title'>Clasicas</h3>
         <button>Comprar out pack</button>
       </div>

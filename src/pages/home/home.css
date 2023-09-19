@@ -28,15 +28,15 @@ main p{
   
 }
 .recomendation{
-  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0 var(--grid-gap);
+  gap:var(--grid-gap);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
 }
 
 .element{
   background-color: aliceblue;
-  width: 25%;
   padding: var(--spacer-s);
   box-shadow: 8px 9px 5px 0px rgba(224,217,224,0.89);
 }
@@ -58,6 +58,9 @@ main p{
   background-size: cover;
   background-repeat: no-repeat;
   flex-direction: column;
+  grid-column: span 6;
+  grid-column-end: -1;
+
 }
 
 .element-basico-int{
@@ -70,6 +73,7 @@ main p{
   background-repeat: no-repeat;
   grid-row-start: span 2;
   flex-direction: column;
+  grid-column: span 6;
 }
 
 .element-basico-finish{
@@ -83,6 +87,9 @@ main p{
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: var(--spacer-s);
+  width: 100%;
+  grid-column: span 6;
+  grid-column-end: -1;
 }
 
 h3{
@@ -98,4 +105,20 @@ button {
   border-radius: 6px;
   font-family:var(--font-2) ;
   width: 150px;
+}
+
+@media (max-width: 900px) {
+  .element-basico-finish{
+    grid-column: 1 / -1;
+  }
+
+  .element-basico-int{
+    grid-column: 1 / -1;
+    height: 1200px;
+    margin-bottom: 10px;
+  }
+  
+  .element-basico{
+    grid-column: 1 / -1;
+  }
 }
